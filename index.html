@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Выкуп авто</title>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+    <div class="container">
+    <div class="row">
+      <div class="header__logo col-lg-4 col-xs-12">
+        <p>Выкуп <span>вто</span></p>
+      </div>
+      <h1 class="col-lg-4 col-xs-12">Выкуп автомобилей в Санкт-Петербурге</h1>
+      <div class="header__info col-lg-4 col-xs-12">
+        <span>8(933)2556622</span>
+        <a href="#">Закажите звонок</a>
+      </div>
+    </div>
+      <nav class="row">
+        <ul class="col-lg-12">
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Доп услуги</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="main__gallery col-lg-12">
+          <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+            <!-- Индикаторы для карусели -->
+            <ol class="carousel-indicators">
+              <!-- Перейти к 0 слайду карусели с помощью соответствующего индекса data-slide-to="0" -->
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <!-- Перейти к 1 слайду карусели с помощью соответствующего индекса data-slide-to="1" -->
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <!-- Перейти к 2 слайду карусели с помощью соответствующего индекса data-slide-to="2" -->
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Слайды карусели -->
+            <div class="carousel-inner">
+              <!-- Слайды создаются с помощью контейнера с классом item, внутри которого помещается содержимое слайда -->
+              <div class="active item">
+                <img class="img-responsive" src="img/pic/img-banner.jpg" alt="">
+              </div>
+              <!-- Слайд №2 -->
+              <div class="item">
+                <div class="active item">
+                <img class="img-responsive" src="img/pic/img-banner2.jpg" alt="">
+              </div>
+              </div>
+              <!-- Слайд №3 -->
+              <div class="item">
+                 <div class="active item">
+                <img class="img-responsive" src="img/pic/img-banner.jpg" alt="">
+              </div>
+              </div>
+            </div>
+            <!-- Навигация для карусели -->
+            <!-- Кнопка, осуществляющая переход на предыдущий слайд с помощью атрибута data-slide="prev" -->
+            <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+              <span class="icon-prev glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <!-- Кнопка, осуществляющая переход на следующий слайд с помощью атрибута data-slide="next" -->
+            <a class="carousel-control right" href="#myCarousel" data-slide="next">
+              <span class="icon-next glyphicon glyphicon-chevron-right"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="container">
+    <div class="row">
+    <aside class="main__aside col-lg-3 col-xs-12">
+      <div class="aside__selection">
+        <ul>
+          <li><a href="#">Выкуп иномарок</a></li>
+          <li><a href="#">Выкуп отечественных авто</a></li>
+          <li><a href="#">Выкуп авто кредитных</a></li>
+          <li><a href="#">Выкуп залогового авто</a></li>
+          <li><a href="#">Выкуп битых авто</a></li>
+          <li><a href="#">Грузовые авто</a></li>
+          <li><a href="#">Микроавтобусы</a></li>
+        </ul>
+      </div>
+      <div class="aside__request">
+        <div class="aside__request-form">
+        <h2>Online Заявка</h2>
+          <form action="">
+            <select name="" id="">
+              <option value="">Марка автомобиля</option>
+            </select>
+            <input type="text" placeholder="Модель">
+            <select name="" id="">
+              <option value="">Год выпуска</option>
+            </select>
+            <input type="text" placeholder="Пробег">
+            <select name="" id="">
+              <option value="">Двигатель</option>
+            </select>
+            <input type="text" placeholder="Объем двигателя">
+            <input type="text" placeholder="Мощность">
+            <select name="" id="">
+              <option value="">Коробка</option>
+            </select>
+            <input type="text" placeholder="Состояние автомобиля">
+            <textarea name="" id="" placeholder="Комментарии"></textarea>
+            <input type="text" placeholder="Желаемая сумма">
+            <input type="text" placeholder="Имя">
+            <input type="text">
+            <input type="text" placeholder=" Номер телефона">
+            <span>Приложите фото автомобиля</span>
+            <!-- <input type="file"> -->
+            <div class="aside__request-form-buttom">
+              <button class="btn-file">Обзор файлов</button>
+              <button class="btn-submit">Отправить</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </aside>
+    <section class="col-lg-9 col-xs-12">
+      <div class="main__advantages">
+      <h2>Как мы работаем</h2>
+      <ul class="xs-col-12">
+        <li class="main__advantages-car">Авто</li>
+        <li class="main__advantages-paper">Оценка</li>
+        <li class="main__advantages-money">Деньги</li>
+      </ul>
+      <h2>Почему мы</h2>
+      <ul class="xs-col-12">
+        <li class="main__advantages-car">Авто</li>
+        <li class="main__advantages-paper">Оценка</li>
+        <li class="main__advantages-money">Деньги</li>
+      </ul>
+      <h2 class="main__advantages-text">Почему мы</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis ducimus dignissimos, doloremque magni voluptate obcaecati inventore non. Pariatur cum amet inventore, quod culpa ducimus facilis maiores molestias, porro. Dolores culpa inventore placeat optio amet ut adipisci molestiae, eos tenetur, minus voluptate! Aperiam error eius laudantium velit enim, doloremque necessitatibus. Aperiam neque excepturi necessitatibus amet! Officia impedit assumenda amet corrupti minima?</p>
+        <p>Enim esse perferendis, omnis qui id. Pariatur nesciunt molestias aperiam obcaecati dolorem ea laboriosam, fugit eum veritatis dicta mollitia ipsa voluptatibus quo officiis eos modi deleniti id rerum distinctio nisi tenetur dignissimos architecto. Dicta nostrum ab animi illum explicabo suscipit quisquam quos expedita itaque pariatur officia consectetur voluptatum, fugit nihil. Vitae numquam facere vero vel, expedita et. Ratione, assumenda consequatur!</p>
+        <p>Ab nobis provident explicabo nesciunt? Dolores beatae ut dolore, quis, cupiditate quas ipsam sed et dignissimos quibusdam rem repellendus hic fugiat nam. Autem facilis, animi nesciunt veritatis quisquam nulla eius deleniti, dolores distinctio, itaque molestiae recusandae natus cum architecto earum ducimus aut at qui voluptatibus. Perferendis ducimus nisi dolores asperiores saepe animi voluptatem suscipit mollitia quibusdam, cupiditate necessitatibus, quisquam unde!</p>
+      </div>
+    </section>
+    </div>
+    </div>
+  </main>
+  <footer>
+  <div class="container footer__bg">
+  <div class="row footer__skin">
+      <div class="footer__logo col-lg-4 col-xs-12">
+        <span>Разработано:</span>
+        <img src="img/pic/logo.jpg" alt="Лого">
+        <p>Агенство интернет-маркетинга</p>
+      </div>
+      <div class="footer__menu col-lg-4 col-xs-12">
+        <ul>
+          <li><a href="#">Выкуп авто</a></li>
+          <li><a href="#">Оценка авто</a></li>
+          <li><a href="#">Сопровождение сделки</a></li>
+          <li><a href="#">Прием на комиссию</a></li>
+          <li><a href="#">Срочный выкуп авто</a></li>
+        </ul>
+      </div>
+      <div class="footer__info col-lg-4 col-xs-12">
+        <p>Нащ салон находится по адресу: Комендантский пр.д.4, лит.а,секция В2А </p>
+        <p>Тел.: 954-94-38</p>
+        <p>Часы работы: Вт-Сб с 11 - 20 ч.</p>
+      </div>
+  </div>
+  </div>
+  </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
